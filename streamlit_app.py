@@ -185,6 +185,7 @@ if submitted:
         st.altair_chart(ingred_bars)
 
     with col3:
+        st.write('Nearest Neighbors')
         if graph:
             st.graphviz_chart(graph, use_container_width=True)
         else:
