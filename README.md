@@ -11,7 +11,7 @@ Over 1000 recipes and 60 common ingredients for baked goods are entered into a M
 ## Classifying User Input
 <code>streamlit_app.py</code> contains the main app. A user inputs a recipe, the recipe undergoes parsing and standardization, and the function in <code>build_dataset.py</code> constructs an array giving the recipe's overall fraction by weight of protein, sugar, other carbohydrates, unsaturated fat, saturated fat, water, and 61 common baking ingredients. A matrix of of this information is constructed using data in MongoDB so that the user input may be compared against over 1000 others. The 3 nearest neighbors are found and displayed in the app along with charts comparing the nutrient and ingredient breakdowns of the user input and its nearest neighbor. If a recipe has 2 or more neighbors that are in the same recipe category, then the recipe will be classified as that recipe category. Otherwise, classification is inconclusive.
 
-![Streamlit-Interface](https://github.com/kaittah/classifying-baking-recipes/blob/main/images/screenshot.png?raw=true)
+![Streamlit-Interface](https://github.com/kaittah/classifying-baking-recipes/blob/master/images/screenshot.png?raw=true)
 
 ## Configuration
 Install requirements using <code>pipenv install</code>. Save a file called <code>secrets.toml</code> in the folder called .streamlit. The secrets file requires the following information:
