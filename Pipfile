@@ -12,7 +12,7 @@ matplotlib = "*"
 seaborn = "*"
 st-annotated-text = "*"
 graphviz = "*"
-pymongo = "*"
+pymongo = {extras = ["srv"], version = "*"}
 pytest = "*"
 altair = "*"
 
