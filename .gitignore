@@ -1,0 +1,6 @@
+secrets.ini
+secrets.toml
+__pycache__
+.pytest_cache
+*.mongodb
+.git

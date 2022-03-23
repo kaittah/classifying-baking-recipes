@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+selenium = "*"
+recipe-scrapers = "*"
+pandas = "*"
+sklearn = "*"
+matplotlib = "*"
+seaborn = "*"
+st-annotated-text = "*"
+graphviz = "*"
+pymongo = "*"
+pytest = "*"
+altair = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
