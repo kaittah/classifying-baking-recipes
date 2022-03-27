@@ -116,18 +116,18 @@ with col1:
     with st.form('recipe_form'):
         classification_slot = st.empty()
         st.text_area('Enter a Recipe', height=350,value="""
-        2 cups all-purpose flour
-        ¾ teaspoon baking soda
+        2 cups all-purpose flour, spooned into measuring cup and leveled-off
         ½ teaspoon salt
-        3 medium bananas, mashed
-        ½ cup creamy peanut butter
-        ½ cup granulated sugar
-        ½ cup light brown sugar
-        ⅓ cup buttermilk
-        ¼ cup vegetable oil
-        2 eggs
-        2 teaspoons vanilla extract
-        1 cup semisweet chocolate chips""", key='recipe_input')
+        1 teaspoon baking soda
+        ½ teaspoon baking powder
+        1 teaspoon ground cloves
+        1 teaspoon ground cinnamon
+        1 teaspoon ground nutmeg
+        1½ sticks (¾ cup) unsalted butter, softened
+        2 cups sugar
+        2 large eggs
+        1 medium banana
+        """, key='recipe_input')
         submitted = st.form_submit_button("Submit")
 
 if submitted:
