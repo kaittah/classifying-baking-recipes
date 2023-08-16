@@ -14,7 +14,8 @@ st-annotated-text = "*"
 graphviz = "*"
 pymongo = {extras = ["srv"], version = "*"}
 pytest = "*"
-altair = "*"
+altair = "==4.0"
+streamlit = "*"
 
 [dev-packages]
 
