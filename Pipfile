@@ -7,14 +7,15 @@ name = "pypi"
 selenium = "*"
 recipe-scrapers = "*"
 pandas = "*"
-sklearn = "*"
+scikit-learn = "*"
+numpy = "*"
 matplotlib = "*"
 seaborn = "*"
 st-annotated-text = "*"
 graphviz = "*"
 pymongo = {extras = ["srv"], version = "*"}
 pytest = "*"
-altair = "*"
+altair = "==4.0"
 
 [dev-packages]
 

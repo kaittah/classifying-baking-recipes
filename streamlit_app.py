@@ -166,7 +166,7 @@ if submitted:
         ingredient_data_closest.columns = ['ingredient', 'fraction']
         ingredient_data['recipe'] = 'User Input Recipe'
         ingredient_data_closest['recipe'] = 'Nearest Neighbor'
-        ingred_bars = alt.Chart(pd.concat([ingredient_data, ingredient_data_closest])).mark_bar(opacity=0.7).encode(
+        ingred_bars = alt.Chart(pd.concat([ingredient_data.loc[ingredient_data['fraction']>0], ingredient_data_closest[ingredient_data_closest['fraction']>0]])).mark_bar(opacity=0.7).encode(
             x=alt.X('fraction', stack=None),
             y=alt.Y(
                     'ingredient',

@@ -1,7 +1,7 @@
 # classifying-baking-recipes
 Have you ever wondered if your cupcake recipe is really a muffin recipe in disguise? This project aims to show the relationship between a user-input recipe and other recipes for baked goods. 
 
-There is a hosted Streamlit app here: https://share.streamlit.io/kaittah/classifying-baking-recipes
+There is a hosted Streamlit app here: https://classifying-baking-recipes.streamlit.app/
 
 ## Data Collection
 Over 1000 recipes and 60 common ingredients for baked goods are entered into a MongoDB database to build the dataset. 
