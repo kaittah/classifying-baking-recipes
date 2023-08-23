@@ -16,6 +16,7 @@ graphviz = "*"
 pymongo = {extras = ["srv"], version = "*"}
 pytest = "*"
 altair = "==4.0"
+streamlit = "*"
 
 [dev-packages]
 
